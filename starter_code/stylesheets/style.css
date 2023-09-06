@@ -8,3 +8,77 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #540B51;
+    padding: 5% 10%;
+}
+
+nav img {
+    background-color: #540B51;
+    height: 25px;
+}
+
+nav button {
+    border: none;
+    height: 25px;
+}
+
+nav ul{
+    display: none;
+}
+
+header{
+    background-color: #540B51;
+    color: white;
+    text-align: center;
+}
+
+header div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0px;
+}
+
+header span{
+    color: #ECB12F;
+}
+
+header button {
+    width: 80vw;
+    height: 50px;
+    border-radius: 10px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+#email-button {
+    color: #540B51;
+}
+
+#google-button {
+    background-color: #4285F4;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#google-button img {
+    height: 80%;
+    background-color: white;
+    border-radius: 5px;
+}
